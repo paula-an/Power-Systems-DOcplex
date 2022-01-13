@@ -5,10 +5,6 @@ import numpy as np
 import pandas as pd
 import os
 import json
-
-# Movendo para pasta corrente
-dir_path = os.path.dirname(os.path.realpath(__file__))
-os.chdir(dir_path)
 from inpdat import inpdat
 
 
@@ -37,7 +33,7 @@ def rule_eq_flow(ilin):
 
 
 # Escolhendo sistema
-file = open(dir_path+'\\Casos\\data_3b.json')
+file = open('Casos\\data_3b.json')
 
 # Lendo dados
 datasys = json.load(file)
