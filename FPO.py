@@ -3,7 +3,6 @@
 from docplex.mp.model import Model
 import numpy as np
 import pandas as pd
-import os
 import json
 from inpdat import inpdat
 
